@@ -31,6 +31,7 @@ if (timeOfDay > 1700) {
 }
 
 //RANDOM NUMBER
+
 let randomNumber = Math.floor(Math.random() * 10)
 if (randomNumber > 0 & randomNumber < 2) {
     console.log('Beatles')
@@ -45,3 +46,21 @@ if (randomNumber == 9 || randomNumber == 10) {
     console.log('Hendrix')
 }
 
+//LOOPS 1
+
+for (let number = 0; number < 7; number++) {
+    console.log('JavaScript is cool!')
+}
+
+// LOOPS 2
+
+for (let num = 0; num <= 10; num++) {
+    console.log(num)
+}
+
+// LOOPS 3 
+
+for (let greeting = 0; greeting < 5; greeting++) {
+    console.log('hello')
+    console.log('goodbye')
+}
