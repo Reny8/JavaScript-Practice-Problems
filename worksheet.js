@@ -101,29 +101,29 @@ for (let item in desktopItems) {
 
 //MAGIC NUMBER 
 
-// let magicNumber = Math.floor(Math.random() * 100)
-// let guess = 0
-// let correctAnswer = false
+let magicNumber = Math.floor(Math.random() * 100)
+let guess = 0
+let correctAnswer = false
 
 
-// while (correctAnswer == false) {
-//     number = prompt("Guess the magic number: ");
-//     if ( magicNumber - 10 == number || magicNumber + 10 == number) {
-//         console.log("Getting Warmer");
-//         guess++
-//     } 
-//     else if ( number > magicNumber ) {
-//         console.log("Too high");
-//         guess++
-//     }
-//     else if ( number < magicNumber ) {
-//         console.log("Too Low");
-//         guess++
-//     }
-//     else if ( number == magicNumber ) {
-//         console.log(`You guessed ${number} which is correct!`);
-//         console.log(`Times guessed: ${guess}`);
-//         correctAnswer = true;
-//     }
-// }
+while (correctAnswer == false) {
+    number = prompt("Guess the magic number: ");
+    if ( magicNumber - 10 == number || magicNumber + 10 == number) {
+        console.log("Getting Warmer");
+        guess++
+    } 
+    else if ( number > magicNumber ) {
+        console.log("Too high");
+        guess++
+    }
+    else if ( number < magicNumber ) {
+        console.log("Too Low");
+        guess++
+    }
+    else if ( number == magicNumber ) {
+        console.log(`You guessed ${number} which is correct!`);
+        console.log(`Times guessed: ${guess}`);
+        correctAnswer = true;
+    }
+}
 
